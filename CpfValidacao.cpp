@@ -7,6 +7,7 @@ int verificar(int res){
         return a;
     } else{
         a = 11-res;
+        return a;
     }
 }
 
