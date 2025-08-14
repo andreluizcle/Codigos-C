@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main()
 {
-    int palpite, num = 29;
+    int palpite, num;
+    srand(time(NULL));
+    num = (rand() % 50) + 1;
     printf("Tente adivinhar o numero correto!\n");
     for(int i = 0; i<4; i++){
         scanf("%d", &palpite);
