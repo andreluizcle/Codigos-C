@@ -1,0 +1,5 @@
+Nome: Andre, Idade: 19, Nota: 10.00
+Nome: Kenji, Idade: 18, Nota: 9.00
+Nome: Nero, Idade: 18, Nota: 7.90
+Nome: Beatriz, Idade: 18, Nota: 6.00
+Nome: Lorena, Idade: 20, Nota: 5.00
