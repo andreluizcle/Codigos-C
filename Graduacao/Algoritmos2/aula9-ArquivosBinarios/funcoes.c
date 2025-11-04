@@ -33,9 +33,10 @@ void Excluir(char nome[50]){
         for(int i = 0; i<10; i++){
             if(strcmp(pessoas[i].nome, nome) == 0){
                 pessoas[i].ativo = 0;
+                //Calculo da posicao Atual - Quantidade que ja foi (dentro do bloco) + Quantidade exata
                 long pos = ftell(arquivo) - (numLidos * sizeof(Pessoa)) + (i * sizeof(Pessoa));
 
-                // Volta o ponteiro exatamente para o registro que queremos sobrescrever
+                // Volta o ponteiro exatamente para o registro
                 fseek(arquivo, pos, SEEK_SET);
 
                 // Grava o registro alterado
